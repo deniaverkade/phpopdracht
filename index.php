@@ -9,8 +9,14 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-
+        <?php 
+        include "navbar.php";
+        ?>
+        <h1>Dit is de hoofdpagina</h1>
         
+        <?php 
+        include "footer.php";
+        ?>
         <script src="" async defer></script>
     </body>
 </html>
