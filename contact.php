@@ -9,22 +9,29 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <form>
-        <label for="fname">Voornaam:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <?php 
+        include "navbar.php";
+        ?>
+            <h1>Dit is de contact pagina</h1>
 
-        <label for="lname">Achternaam:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+            <form>
+                <label for="fname">Voornaam:</label><br>
+                <input type="text" id="fname" name="fname"><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+                <label for="lname">Achternaam:</label><br>
+                <input type="text" id="lname" name="lname"><br>
 
-        <label for="msg">Bericht:</label><br>
-        <input type="tekst" id="msg" name="msg"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
 
-        <input type="submit" id="submit" name="submit">
-        </form>
-        
+                <label for="msg">Bericht:</label><br>
+                <input type="tekst" id="msg" name="msg"><br>
+
+                <input type="submit" id="submit" name="submit">
+            </form>
+        <?php 
+        include "footer.php";
+        ?>
         <script src="" async defer></script>
     </body>
 </html>
